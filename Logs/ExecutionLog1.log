@@ -52,3 +52,31 @@
 2024-08-19 14:34:34,411 [main] INFO CoverFoxInsurance - clicking on continue button
 2024-08-19 14:34:38,599 [main] INFO CoverFoxInsurance - Validating Banner
 2024-08-19 14:34:43,137 [main] INFO CoverFoxInsurance - Closing Browser
+2024-08-19 22:42:25,583 [main] INFO CoverFoxInsurance - Opening Browser
+2024-08-19 22:42:33,909 [main] INFO CoverFoxInsurance - Clicking On Gender Button
+2024-08-19 22:42:35,163 [main] INFO CoverFoxInsurance - clicking on next button
+2024-08-19 22:42:40,940 [main] WARN CoverFoxInsurance - Enter age between 18 to 90
+2024-08-19 22:42:40,942 [main] INFO CoverFoxInsurance - Handle age drop-down
+2024-08-19 22:42:41,375 [main] INFO CoverFoxInsurance - clicking on next button
+2024-08-19 22:42:43,240 [main] WARN CoverFoxInsurance - Please entering valid pincode
+2024-08-19 22:42:43,242 [main] INFO CoverFoxInsurance - entering pincode
+2024-08-19 22:42:43,723 [main] WARN CoverFoxInsurance - Please entering valid mobile number
+2024-08-19 22:42:43,725 [main] INFO CoverFoxInsurance - entering mobile number
+2024-08-19 22:42:43,981 [main] INFO CoverFoxInsurance - clicking on continue button
+2024-08-19 22:42:52,355 [main] INFO CoverFoxInsurance - Validating Banner
+2024-08-19 22:42:56,491 [main] INFO CoverFoxInsurance - Validating presence of sort Button
+2024-08-19 22:42:56,507 [main] INFO CoverFoxInsurance - Closing Browser
+2024-08-19 22:46:42,637 [main] INFO CoverFoxInsurance - Opening Browser
+2024-08-19 22:46:54,418 [main] INFO CoverFoxInsurance - Clicking On Gender Button
+2024-08-19 22:46:55,632 [main] INFO CoverFoxInsurance - clicking on next button
+2024-08-19 22:46:58,302 [main] WARN CoverFoxInsurance - Enter age between 18 to 90
+2024-08-19 22:46:58,302 [main] INFO CoverFoxInsurance - Handle age drop-down
+2024-08-19 22:46:58,437 [main] INFO CoverFoxInsurance - clicking on next button
+2024-08-19 22:46:59,807 [main] WARN CoverFoxInsurance - Please entering valid pincode
+2024-08-19 22:46:59,808 [main] INFO CoverFoxInsurance - entering pincode
+2024-08-19 22:47:00,092 [main] WARN CoverFoxInsurance - Please entering valid mobile number
+2024-08-19 22:47:00,093 [main] INFO CoverFoxInsurance - entering mobile number
+2024-08-19 22:47:00,244 [main] INFO CoverFoxInsurance - clicking on continue button
+2024-08-19 22:47:04,673 [main] INFO CoverFoxInsurance - Validating Banner
+2024-08-19 22:47:08,761 [main] INFO CoverFoxInsurance - Validating presence of sort Button
+2024-08-19 22:47:08,777 [main] INFO CoverFoxInsurance - Closing Browser
