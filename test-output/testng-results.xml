@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Waiting....]]>
+    </line>
+    <line>
+      <![CDATA[validateBanners TC execution started]]>
+    </line>
+    <line>
+      <![CDATA[TC validateBanners is failed]]>
+    </line>
+    <line>
+      <![CDATA[taking screenShot]]>
+    </line>
+    <line>
+      <![CDATA[saving file at location C:\Users\AKSHAY\eclipse-workspace\CoverFoxTest\screenShot\validateBanners20240810134622.png]]>
+    </line>
+    <line>
+      <![CDATA[validateIsdisplyedSortPlan TC execution started]]>
+    </line>
+    <line>
+      <![CDATA[TC validateIsdisplyedSortPlan is failed]]>
+    </line>
+    <line>
+      <![CDATA[taking screenShot]]>
+    </line>
+    <line>
+      <![CDATA[saving file at location C:\Users\AKSHAY\eclipse-workspace\CoverFoxTest\screenShot\validateIsdisplyedSortPlan20240810134626.png]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-10T13:46:00 IST" name="Suite" finished-at="2024-08-10T13:46:29 IST" duration-ms="28680">
+    <groups>
+    </groups>
+    <test started-at="2024-08-10T13:46:00 IST" name="coverFoxTestNG" finished-at="2024-08-10T13:46:29 IST" duration-ms="28680">
+      <class name="coverFoxTest.CoverFoxTC1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CoverFoxTC1@6d60fe40]" started-at="2024-08-10T13:46:00 IST" name="launchBrowser" finished-at="2024-08-10T13:46:08 IST" duration-ms="7881" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+            <line>
+              <![CDATA[Waiting....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:coverFoxTest.CoverFoxTC1@6d60fe40]" started-at="2024-08-10T13:46:08 IST" name="preConditions" finished-at="2024-08-10T13:46:18 IST" duration-ms="9831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="validateBanners()[pri:0, instance:coverFoxTest.CoverFoxTC1@6d60fe40]" started-at="2024-08-10T13:46:18 IST" name="validateBanners" finished-at="2024-08-10T13:46:22 IST" duration-ms="4035" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at coverFoxTest.CoverFoxTC1.validateBanners(CoverFoxTC1.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[validateBanners TC execution started]]>
+            </line>
+            <line>
+              <![CDATA[TC validateBanners is failed]]>
+            </line>
+            <line>
+              <![CDATA[taking screenShot]]>
+            </line>
+            <line>
+              <![CDATA[saving file at location C:\Users\AKSHAY\eclipse-workspace\CoverFoxTest\screenShot\validateBanners20240810134622.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBanners -->
+        <test-method signature="validateIsdisplyedSortPlan()[pri:0, instance:coverFoxTest.CoverFoxTC1@6d60fe40]" started-at="2024-08-10T13:46:22 IST" name="validateIsdisplyedSortPlan" finished-at="2024-08-10T13:46:26 IST" duration-ms="4009" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at coverFoxTest.CoverFoxTC1.validateIsdisplyedSortPlan(CoverFoxTC1.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[validateIsdisplyedSortPlan TC execution started]]>
+            </line>
+            <line>
+              <![CDATA[TC validateIsdisplyedSortPlan is failed]]>
+            </line>
+            <line>
+              <![CDATA[taking screenShot]]>
+            </line>
+            <line>
+              <![CDATA[saving file at location C:\Users\AKSHAY\eclipse-workspace\CoverFoxTest\screenShot\validateIsdisplyedSortPlan20240810134626.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateIsdisplyedSortPlan -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CoverFoxTC1@6d60fe40]" started-at="2024-08-10T13:46:26 IST" name="closeBrowser" finished-at="2024-08-10T13:46:29 IST" duration-ms="2396" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- coverFoxTest.CoverFoxTC1 -->
+    </test> <!-- coverFoxTestNG -->
+  </suite> <!-- Suite -->
+</testng-results>
